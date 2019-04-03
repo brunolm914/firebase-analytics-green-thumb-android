@@ -74,6 +74,10 @@
             android:name=".data.PlantProvider"
             android:authorities="@string/content_authority"
             android:exported="false"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f9765934ab81cf24e392d1d539d2a6bb0512bb10" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
